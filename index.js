@@ -23,6 +23,8 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  kittens = ["name", ...kittens];
+  kittens = [name, ...kittens];
   return kittens;
 }
+
+function 
